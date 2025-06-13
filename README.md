@@ -1,6 +1,6 @@
 # 🔐 **Local Password Manager**
 
-A simple and secure password manager built with Python. It provides an easy-to-use graphical interface for storing, viewing, and managing your credentials locally. All passwords are encrypted using industry-standard encryption and stored securely in a local database.
+This is a local password manager application built using Python. It allows users to securely store, retrieve, and manage passwords for different accounts using encryption. The data is stored locally, meaning no internet connection or cloud sync is required — everything remains on your device.
 
 # 📌 **Features**
 - Graphical User Interface (GUI) using tkinter
@@ -37,13 +37,22 @@ A simple and secure password manager built with Python. It provides an easy-to-u
 
 - cryptography – For secure encryption of passwords
 
-Make sure you have Python installed. Then install these dependencies:
+# 🚀 **Getting Started**
+1. Clone the repository:
+```bash
+git clone https://github.com/Saisathvika22/Password_Manager.git
+cd Password_Manager
+```
 
+2. Make sure you have Python installed. Then install these dependencies:
 ```bash
 pip install -r requirements.txt
 ```
 
-
+3. Run the app:
+```bash
+python main.py
+```
 
 # 🔐 **Encryption Key**
 

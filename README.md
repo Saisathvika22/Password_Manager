@@ -39,17 +39,21 @@ A simple and secure password manager built with Python. It provides an easy-to-u
 
 Make sure you have Python installed. Then install these dependencies:
 
+```bash
 pip install -r requirements.txt
+```
 
 
-# 🔑**Encryption Key**
+
+# 🔐 **Encryption Key**
+
 - The app uses Fernet symmetric encryption from the cryptography library.
 
 - A key is generated.
 
 - This key is used to encrypt and decrypt passwords.
 
-- Do not delete key — without it, your stored data cannot be decrypted.
+- Do not delete the key — without it, your stored data cannot be decrypted.
 
 
 # 🧠 **How It Works**
